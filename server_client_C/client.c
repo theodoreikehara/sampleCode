@@ -29,7 +29,7 @@ int main(void) {
     memset(&server_address, 0, sizeof(server_address));
     server_address.sin_family = AF_INET;
     server_address.sin_port = htons(PORT_NUMBER);
-    server_address.sin_addr.s_addr = inet_addr("172.28.122.176");
+    server_address.sin_addr.s_addr = inet_addr("ENTER IP ADDRESS OF LOCAL HOST");
 
     /* send the packet to the server */
     struct packet pkt;
